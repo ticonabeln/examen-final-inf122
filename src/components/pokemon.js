@@ -7,7 +7,8 @@ function pokemon (){
     const[pokemon,setpokemon]=useState("/vercel.svg");
     const[estado, setEstado]=useState("esperando")
     const[habilidad, setHabilidad]=useState("habilidad")
-    const url="https://pokeapi.co/api/v2/pokemon-form/175/";
+    const url="https://pokeapi.co/api/v2/pokemon/eevee";
+    ;
     useEffect(()=>{
         fetch(url).then(res=>res.json())
         .then(data=>{

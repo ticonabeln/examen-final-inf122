@@ -1,12 +1,14 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import pokemon from "./components/foto";
 
-export default function Home() {
+export default function pokemon() {
   return (
-    <main className={styles.main}>
-      
-  <pokemon/>
-  <pokemon/>
-    </main>
+    <div className={styles.main}>
+      <pokemon/>
+      <pokemon/>
+      <pokemon/>
+      <pokemon/>
+    </div>
   );
 }
